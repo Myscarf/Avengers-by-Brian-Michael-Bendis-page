@@ -131,6 +131,13 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl,
   background-color: #92012a;
 }
 
+.colorBL {
+  background-color: rgb(5, 29, 41);
+}
+.colorMA {
+  background-color: #80ADFF;
+}
+
 .card__cover {
   max-width: 250px;
 }
