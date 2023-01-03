@@ -1,0 +1,174 @@
+
+body {
+  font-family: "Open Sans",sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000;
+  min-width: 320px;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  font-size: inherit;
+}
+
+.more {display: none;}
+
+
+.news {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  grid-auto-rows: minmax(200px, auto);
+}
+
+.nAv-col {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.nAv1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.nAv2 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.nAv3 {
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+.nAv4 {
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+.nAv5 {
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+.nAv6 {
+  grid-row-start: 8;
+  grid-row-end: 11;
+}
+.nAv7 {
+  grid-row-start: 11;
+  grid-row-end: 14;
+}
+
+
+.MAv-col{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.MAv1 {
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.DAv-col{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.DAv1 {
+  grid-row-start: 6;
+  grid-row-end: 8;
+}
+
+
+
+.Av-col {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.Av1 {
+  grid-row-start: 8;
+  grid-row-end: 10;
+}
+.Av2 {
+  grid-row-start: 10;
+  grid-row-end: 12;
+}
+.Av3 {
+  grid-row-start: 12;
+  grid-row-end: 14;
+}
+
+.card {
+  padding: 20px;
+  max-width: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  margin:  10px;
+}
+
+
+
+.Morph-out {
+  background-color: #5c69ad;
+  min-height: 30px;
+  min-width: 30px;
+  border-radius: 20px;
+  -webkit-box-shadow: -5px -5px 10px #7889e1, 5px 5px 10px #404a79;
+  box-shadow: -5px -5px 10px #7889e1, 5px 5px 10px #404a79;
+  z-index: 2;
+}
+
+.colorDD {
+  background-color: #92012a;
+}
+
+.card__cover {
+  max-width: 250px;
+}
+
+
+.card__series {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card__volume {
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.card__description {
+  margin: 6px 0;
+  font-size: 14px;
+  line-height: 18px;
+  -ms-flex-item-align: end;
+  text-align: end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.card__description-right {
+  text-indent: 20px;
+  text-align: start;
+}
+.svg_im{
+  height: 20px;
+  width: 20px;
+  fill: black;
+}
+
+
+ul{
+  list-style:none;
+  padding-inline-start: 0px;
+
+}
